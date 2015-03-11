@@ -1,4 +1,4 @@
-#Questionaire
+#Questionnaire
 
 Create a webpage that answers some basic biography pages about yourself.
 
@@ -8,4 +8,5 @@ Create a webpage that answers some basic biography pages about yourself.
 - What movies do you like to watch?
 - List three of your favorite books.
 
-Answers can be as brief or lenghy as the student would like.  Use html tags to markup each question and its' answer appropriately.
+Answers can be as brief or lenghy as the student would like.
+Use html tags to markup each question and its' answer appropriately.

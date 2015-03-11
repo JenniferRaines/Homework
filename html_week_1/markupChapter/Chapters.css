@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    border-bottom: 12px double #000;
+    black;
+    text-align: center;
+}
+
+div {
+    width: 50%;
+    margin: 30px auto;
+}
+
+footer {
+    text-align: center;
+}
