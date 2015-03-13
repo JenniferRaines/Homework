@@ -10,8 +10,49 @@
     width: 572px;
 }
 
+.row {
+    width: 908px;
+    margin: 0 auto;
+    position: relative;
+}
+
 #row3 div {
     float: left
+}
+
+.bump {
+    display: inline-block;
+}
+
+.bump5 {
+    margin-left: 5px
+}
+
+.bump10 {
+    margin-left: 10px
+}
+
+.bump20 {
+    margin-left: 20px
+}
+
+.bump50 {
+    margin-left: 50px
+}
+
+.bump40 {
+    margin-left: 40px
+}
+
+.bigtext {
+    font-size: 22px;
+}
+
+.bubbles {
+position: absolute;
+font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 #bubble1 {
@@ -20,19 +61,6 @@
     font-family: sans-serif;
     font-size: 14px;
     left: 23px;
-}
-
-.row {
-    width: 908px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.bubbles {
-position: absolute;
-font-family: sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 #bubble2 {
@@ -48,26 +76,6 @@ font-family: sans-serif;
     width: 223px;
     letter-spacing: 0.75;
     font-size: 13px
-}
-
-.bump {
-    display: inline-block;
-}
-                 
-.bump5 {
-    margin-left: 5px
-}
-
-.bump10 {
-    margin-left: 10px
-}
-
-.bump20 {
-    margin-left: 20px
-}
-
-.bump50 {
-    margin-left: 50px
 }
 
 #bubble4 {
@@ -105,4 +113,134 @@ font-family: sans-serif;
     font-size: 13px;
     line-height: 1.2;
 }
+
+#bubble8 {
+    top: 13px;
+    left: 25px;
+    width: 140px;
+    letter-spacing: 0.6;
+    font-size: 14;
+    line-height: 1.2;
+}
+
+#bubble9 {
+    top: 13px;
+    left: 236px;
+    width: 184px;
+    letter-spacing: 0.6;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#bubble10 {
+    top: 18px;
+    left: 687px;
+    width: 184px;
+    letter-spacing: 0.6;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#bubble11 {
+    top: 247px;
+    left: 226px;
+    width: 257px;
+    letter-spacing: 0.5;
+    font-size: 14;
+    line-height: 1.1;
+    text-align: center;
+}
+
+#bubble12 {
+    top: 5;
+    left: 16px;
+    width: 211px;
+    letter-spacing: 0.5;
+    font-size: 14;
+    line-height: 1.1;
+    text-align: left;
+}
+
+#bubble13 {
+    top: 466px;
+    left: 13px;
+    width: 158px;
+    letter-spacing: 0.5;
+    font-size: 13;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#bubble14 {
+    top: 535px;
+    left: 222px;
+    width: 158px;
+    letter-spacing: 0.5;
+    font-size: 13;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#bubble15 {
+    top: 8px;
+    left: 375px;
+    width: 189px;
+    letter-spacing: 1;
+    font-size: 13.5;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#bubble16 {
+    top: 12px;
+    right: 13px;
+    width: 160px;
+    letter-spacing: 1;
+    font-size: 13.5;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#bubble17 {
+    bottom: 128px;
+    right: 364px;
+    width: 160px;
+    letter-spacing: 1;
+    font-size: 13.5;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#bubble18 {
+    bottom: 57px;
+    right: 376px;
+    width: 141px;
+    letter-spacing: 1;
+    font-size: 13.5;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#bubble19 {
+    bottom: 32px;
+    right: 56px;
+    width: 141px;
+    letter-spacing: 1;
+    font-size: 13.5;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
 
