@@ -1,0 +1,40 @@
+#specialdishes {
+    border:3px solid red;
+    border-radius:10px;
+    width:750px;
+    height:200px;
+    align:center;
+}
+
+table {
+    font-family:sans-serif;
+    padding:15px;
+}
+
+tr {
+    text-align: left
+}
+
+th {color:red;
+    font-size:10px;
+}
+
+#header {
+    font-size:20px;
+    padding-left: 0px;
+}
+
+.left {
+    text-align:left
+}
+
+.right {
+    text-align:right
+}
+
+td {
+    text-align:right;
+    color:green;
+    font-size:12px;
+
+}
