@@ -1,0 +1,161 @@
+title {
+    display: none;
+}
+
+* {display:flex;
+    flex-flow: wrap;
+}
+
+.container {
+    flex-direction:column;
+    font-family: "Cabin", sans-serif;
+    color: white;
+}
+
+
+.intro {
+    flex-direction:column;
+    justify-content: space-between;
+    max-width: 100%;
+    background-image: url("img/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.header {
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span {
+    padding: 25px;
+}
+
+.introtext {
+    flex-direction: column;
+    margin: 80px;
+}
+
+.introtext p {
+    font-size: 1.2em;
+}
+
+.greenbar {
+    background-color: #25aa99;
+    margin: 35px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.greenbar span {
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: flex-start;
+}
+
+.maintext {
+    flex-direction: column;
+    color: black;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.thumbnails {
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    margin: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.thumb {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.thumb img {
+    max-width: 100%;
+}
+
+.thumb span {
+    padding-top: 7px;
+}
+
+.thumb .caption2 {
+    color: #25aa99;
+}
+
+.thumb .caption3 {
+    color: grey;
+}
+
+.graph {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top:70px;
+    margin-bottom: 35px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.graph img {
+    min-width:100%;
+}
+
+.signup {
+    margin-top: 85px;
+    background-color: #25aa99;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom:35px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    align-items: center;
+    margin-right: 20px;
+}
+
+input[type=submit] {
+    border: none;
+    color: white;
+    background: #dac26c;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+
+button {
+    padding: 10px;
+    margin-left: 15px;
+    background: #dac26c;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    border:none;
+
+}
+
+footer {
+    flex-direction: column;
+    bottom:0;
+    min-height: 100px;
+    background: #d8d9dd;
+}
