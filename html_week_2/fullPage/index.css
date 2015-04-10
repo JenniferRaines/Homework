@@ -107,10 +107,11 @@ title {
     align-items: center;
     margin-left: 75px;
     margin-right: 75px;
-    margin-top:70px;
+    margin-top:50px;
     margin-bottom: 35px;
     max-height: 100%;
     max-width: 100%;
+    background-image:
 }
 
 .graph img {
@@ -122,10 +123,14 @@ title {
     background-color: #25aa99;
     background-size: cover;
     padding-top: 35px;
-    padding-bottom:35px;
+    padding-bottom: 35px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.signup img {
+
 }
 
 form {
@@ -133,29 +138,121 @@ form {
     margin-right: 20px;
 }
 
+form span {
+    padding: 0px 20px;
+}
+
+input, input[type=password], input[type=search] {
+    padding: 12px 120px 12px 40px;
+    border: none;
+    border-radius: 7px;
+    text-align: left;
+
+}
+
+input, input[type=password], input[type=search]::before {
+    background-image: url("img/subscription_email_icon.gif");
+    background-repeat: no-repeat;
+    background-position: 5%;
+
+}
+
 input[type=submit] {
     border: none;
     color: white;
+    align-content: center;
     background: #dac26c;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 7px;
     margin-left: 20px;
+    min-height: 40px;
+    min-width: 100px;
 }
 
-
-button {
-    padding: 10px;
-    margin-left: 15px;
-    background: #dac26c;
+input[type=submit]:hover {
+    border: none;
     color: white;
-    font-family: "Cabin", sans-serif;
-    border:none;
-
+    align-content: center;
+    background: dimgray;
+    padding: 10px 50px;
+    border-radius: 7px;
+    margin-left: 20px;
+    min-height: 40px;
+    min-width: 100px;
 }
+
+
+
 
 footer {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     bottom:0;
-    min-height: 100px;
     background: #d8d9dd;
+    color: grey;
+}
+
+footer .footerlogo {
+    flex-direction: column;
+    padding: 50px 25px 0px 100px;
+}
+
+footer .footerlinks {
+    flex-direction: column;
+    line-height: .5em;
+    padding: 50px 25px 0px 24px;
+
+}
+
+footer .footermap {
+    flex-direction:column;
+    padding: 50px 25px 0px 25px;
+
+}
+
+footer .footeraddress {
+    flex-direction:column;
+    line-height: .5em;
+    padding: 50px 100px 50px 25px;
+
+}
+
+footer .footeraddress .copyright {
+    color: black;
+}
+
+footer input[type=submit] {
+    border: none;
+    color: white;
+    align-content: center;
+    background: cornflowerblue;
+    padding: 10px 50px;
+    border-radius: 7px;
+    min-height: 40px;
+    min-width: 100px;
+    margin: 0px;
+}
+
+footer input[type=submit]:hover {
+    border: none;
+    color: white;
+    align-content: center;
+    background: dimgray;
+    padding: 10px 50px;
+    border-radius: 7px;
+    min-height: 40px;
+    min-width: 100px;
+    margin: 0px;
+
+}
+
+a:-webkit-any-link {
+    color: grey;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:hover {
+    color:black;
 }
