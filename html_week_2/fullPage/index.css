@@ -103,6 +103,7 @@ title {
 
 .graph {
     flex-direction: row;
+    flex-flow: nowrap;
     justify-content: center;
     align-items: center;
     margin-left: 75px;
